@@ -92,7 +92,7 @@ def Get_Rag_Response(query):
     else:
         print("Error: No query passed")
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="localhost", port=8000)
+# if __name__ == "__main__":
+#     uvicorn.run(app, host="localhost", port=8000)
 
-PORT = os.getenv('PORT')
+# PORT = os.getenv('PORT')
